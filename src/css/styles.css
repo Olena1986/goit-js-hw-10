@@ -16,5 +16,49 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  border-radius: 50px;
+}
+
+.listCountry {
+  display: block;
+  margin-bottom: 10px;
+}
+.listCountry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listCountry:hover {
+  background-color: #f3f3f3;
+}
+
+.nameCountry {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.country-info {
+  display: block;
+}
+
+.nameCard {
+  margin: 10px 0 5px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(71, 70, 70);
+}
+span {
+  color: rgb(57, 54, 54);
+  font-weight: bold;
+}
+.textCard {
+  margin: 5px 0;
+  font-size: 16px;
 }
