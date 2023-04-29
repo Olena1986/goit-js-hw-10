@@ -42,7 +42,7 @@ searchInput.addEventListener(
           Notify.info('Too many matches found. Please enter a more specific name.');
           countryInfoEl.innerHTML = '';
           countryListEl.innerHTML = '';
-          searchInput.value = '';
+         
         } else if (data.length === 1) {
           countryInfoEl.insertAdjacentHTML('beforeend', countryCard(data[0]));
           countryListEl.innerHTML = '';
